@@ -8,10 +8,12 @@ namespace RetailWeb
     [Serializable]
     public class Basket
     {
+        [XmlAttribute("basketid")]
         public string ID { get; set; }
         /// <summary>
         /// When the basket last had a discount applied
         /// </summary>
+        [XmlIgnore()]
         public DateTime Discounted { get; set; }
         public IEnumerable<BasketItem> items { get; set; }
         [XmlIgnore]
