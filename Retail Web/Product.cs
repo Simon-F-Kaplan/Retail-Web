@@ -7,6 +7,6 @@ namespace Retail_Web
         public string Name { get; set; }
         public bool HasDeliverables { get; set; }
         public bool IsDiscountable { get; set; }
-
+        public decimal Price { get; set; }
     }
 }
