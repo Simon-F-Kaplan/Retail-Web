@@ -4,6 +4,7 @@ using System.Text;
 
 namespace RetailWeb
 {
+    [Serializable()]
     public class BasketItem
     {
         public string InternalId { get; set; }
