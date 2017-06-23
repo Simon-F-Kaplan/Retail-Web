@@ -1,4 +1,11 @@
-﻿<?xml version="1.0"?><webOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" paymentType="card-paidonline" userId="{361f9ab6-b06a-40cf-addb-ee37b3575e34}" orderCurrency="GBP" orderDate="2017-06-23T07:36:57.4192209+01:00" webOrderId="KF110358" isPaperlessEnrolment="false" corpDiscountApplied="false" xmlns="http://schemas.kaplan.co.uk/messages/2009/03/webOrder"> 
+﻿<?xml version="1.0"?><webOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+paymentType="card-paidonline" 
+userId="{361f9ab6-b06a-40cf-addb-ee37b3575e34}" 
+orderCurrency="GBP" 
+orderDate="2017-06-23T07:36:57.4192209+01:00" 
+webOrderId="KF110358" 
+isPaperlessEnrolment="false" 
+corpDiscountApplied="false" xmlns="http://schemas.kaplan.co.uk/messages/2009/03/webOrder"> 
 <sponsored>false</sponsored> 
 <customerPaysVat>false</customerPaysVat> 
 <preferenceType>0</preferenceType> 

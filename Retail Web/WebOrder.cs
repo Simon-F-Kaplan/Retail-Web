@@ -8,6 +8,14 @@ namespace RetailWeb
     [Serializable]
     public class WebOrder
     {
+        [XmlAttribute("paymentType")]
+        public string PaymentType { get; set; }
+        [XmlAttribute("userId")]
+        public string UserId { get; set; }
+        [XmlAttribute("orderCurrency")]
+        public string OrderCurrency { get; set; }
+        [XmlAttribute("orderDate")]
+        public DateTime OrderDate { get; set; }
         [XmlAttribute("orderItems")]
         IEnumerable<WebOrderItem> OrderItems { get; set; }
     }
