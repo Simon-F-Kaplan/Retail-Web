@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?><webOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" paymentType="card-paidonline" userId="{361f9ab6-b06a-40cf-addb-ee37b3575e34}" orderCurrency="GBP" orderDate="2017-06-23T07:36:57.4192209+01:00" webOrderId="KF110358" isPaperlessEnrolment="false" corpDiscountApplied="false" xmlns="http://schemas.kaplan.co.uk/messages/2009/03/webOrder"> 
+<sponsored>false</sponsored> 
+<customerPaysVat>false</customerPaysVat> 
+<preferenceType>0</preferenceType> 
+<voucherCode>passcode1</voucherCode> 
+<shippingChargeKF>0</shippingChargeKF> 
+<shippingChargeKP>0</shippingChargeKP> 
+<orderTotalWithVat>0</orderTotalWithVat> 
+<orderTotalExVat>0</orderTotalExVat> 
+<addresses><address isDeleted="false" label="MAIN"> 
+<firstName>Chitra</firstName> 
+<lastName>C</lastName> 
+<collegeName>CIMA</collegeName> 
+<tutorName /> 
+<addressLine1>qwert</addressLine1> 
+<addressLine2>wsedfgh</addressLine2> 
+<city>wesdrftghyj</city> 
+<county>Hertforshire u</county> 
+<postCode>M1 1AA</postCode> 
+<country>VU</country> 
+<countryName>United Kingdom</countryName> 
+<instructions /> 
+</address> 
+</addresses> 
+<paymentCard> 
+<cardType>0</cardType> 
+<cardNumber xsi:nil="true" /> 
+<issueNumber>0</issueNumber> 
+<cardHolderName xsi:nil="true" /> 
+<startDate xsi:nil="true" /> 
+<expiryDate>2017-04</expiryDate> 
+<authorisationCode>0</authorisationCode> 
+<amount>0</amount> 
+<transactionId>KF110358-KF</transactionId> 
+<flexible>false</flexible> 
+<paymentDueDate xsi:nil="true" /> 
+</paymentCard> 
+<orderItems> 
+<orderItem variant="" NAVID="003114P500002" quantity="1" itemPriceWithVat="0" itemPriceExVat="0" discountPercentage="0" company="KF" amountPaid="0" productId="003114P500002" description="C4 Fundamentals of Business Economics Assessment" itemType="CIMASTUDY" paperMode="" additionalExamSupport="0" sessionCode="" /> 
+<orderItem variant="" NAVID="003114P500001" quantity="1" itemPriceWithVat="0" itemPriceExVat="0" discountPercentage="0" company="KF" amountPaid="0" productId="003114P500001" description="C4 Fundamentals of Business Economics Full Course" itemType="CIMASTUDY" paperMode="" additionalExamSupport="0" sessionCode="" /> 
+<orderItem variant="" NAVID="003112P500002" quantity="1" itemPriceWithVat="0" itemPriceExVat="0" discountPercentage="0" company="KF" amountPaid="0" productId="003112P500002" description="C2 Fundamentals of Financial Accounting Assessment" itemType="CIMASTUDY" paperMode="" additionalExamSupport="0" sessionCode="" /> 
+<orderItem variant="" NAVID="003111P500002" quantity="1" itemPriceWithVat="0" itemPriceExVat="0" discountPercentage="0" company="KF" amountPaid="0" productId="003111P500002" description="C1 Fundamentals of Management Accounting Assessment" itemType="CIMASTUDY" paperMode="" additionalExamSupport="0" sessionCode="" /> 
+<orderItem variant="" NAVID="003111P500001" quantity="1" itemPriceWithVat="0" itemPriceExVat="0" discountPercentage="0" company="KF" amountPaid="0" productId="003111P500001" description="C1 Fundamentals of Management Accounting Full Course" itemType="CIMASTUDY" paperMode="" additionalExamSupport="0" sessionCode="" /> 
+</orderItems> 
+</webOrder> 
+
+<Basket xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+<BasketItems> 
+<BasketItem Quantity="1" CompanyType="KF" ProductID="752689" ItemCategoryID="1845" Qualification="ACCA" IsBookPreOrdered="false"> 
+<Price>509.0000</Price> 
+<Description>Cambridge ACCA Skills F4 CL (ENG) - Weekday Tuition Aug 17</Description> 
+<DeliveryPrice>0.0000</DeliveryPrice> 
+<DeliveryDescription>Std del. First item rate: 0.0000</DeliveryDescription> 
+<CorporateDiscountPercent>0</CorporateDiscountPercent> 
+<IsItemAdditionalDeliveryCalculated>false</IsItemAdditionalDeliveryCalculated> 
+<IsItemDeliveryCalculated>true</IsItemDeliveryCalculated> 
+</BasketItem> 
+<BasketItem Quantity="1" CompanyType="KF" ProductID="753567" ItemCategoryID="1916" Qualification="ACCA" IsBookPreOrdered="false"> 
+<Price>499.0000</Price> 
+<Description>Milton Keynes ACCA Skills F5 PM - Revision Weekend Jun 17</Description> 
+<DeliveryPrice>0.0000</DeliveryPrice> 
+<DeliveryDescription>Std del. First item rate: 0.0000</DeliveryDescription> 
+<CorporateDiscountPercent>0</CorporateDiscountPercent> 
+<IsItemAdditionalDeliveryCalculated>false</IsItemAdditionalDeliveryCalculated> 
+<IsItemDeliveryCalculated>true</IsItemDeliveryCalculated> 
+</BasketItem> 
+</BasketItems> 
+<CBBasketItems /> 
+<GetKFShippingChargeForSerializedWebOrder>0</GetKFShippingChargeForSerializedWebOrder> 
+</Basket>
