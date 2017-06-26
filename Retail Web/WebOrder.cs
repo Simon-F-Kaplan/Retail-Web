@@ -16,9 +16,66 @@ namespace RetailWeb
         public string OrderCurrency { get; set; }
         [XmlAttribute("orderDate")]
         public DateTime OrderDate { get; set; }
-        [XmlAttribute("orderItems")]
-        IEnumerable<WebOrderItem> OrderItems { get; set; }
+        [XmlAttribute("webOrderId")]
+        public string WebOrderId { get; set; }
+        [XmlAttribute("isPaperlessEnrolment")]
+        public bool IsPaperlessEnrolment { get; set; }
+        [XmlAttribute("corpDiscountApplied")]
+        public bool IsCorporateDiscountApplied { get; set; }
+        [XmlElement("sponsored")]
+        public bool Sponsored { get; set; }
+        [XmlElement("customerPaysVat")]
+        public bool CustomerPaysVAT { get; set; }
+        [XmlElement("preferenceType")]
+        public int PreferenceType { get; set; }
+        [XmlElement("voucherCode")]
+        public string VoucherCode { get; set; }
+        [XmlElement("shippingChargeKF")]
+        public decimal ShippingChargeKF { get; set; }
+        [XmlElement("shippingChargeKP")]
+        public decimal ShippingChargeKP { get; set; }
+        [XmlElement("orderTotalWithVat")]
+        public decimal OrderTotalWithVAT { get; set; }
+        [XmlElement("orderTotalExcludingVat")]
+        public decimal OrderTotalExcludingVAT { get; set; }
+        [XmlElement("paymentCard")]
+        public PaymentCard Payment { get; set; }
+        [XmlElement("addresses")]
+        List<Address> Addresses { get; set; }
+        [XmlElement("orderItems")]
+        List<WebOrderItem> OrderItems { get; set; }
     }
+
+    [Serializable]
+    public class PaymentCard
+    {
+        [XmlElement("cardType")]
+        public int CardType { get; set; }
+        [XmlElement("cardNumber")]
+        public int CardNumber { get; set; }
+        [XmlElement("issueNumber")]
+        public int IssueNumber { get; set; }
+        [XmlElement("cardHolderName")]
+        public string CardHolderName { get; set; }
+        [XmlElement("startDate")]
+        public DateTime StartDate { get; set; }
+        [XmlElement("expiryDate")]
+        public DateTime ExpiryDate { get; set; }
+        [XmlElement("authorisationCode")]
+        public string AuthorisationCode { get; set; }
+        [XmlElement("amount")]
+        public decimal Amount { get; set; }
+        [XmlElement(("transactionId"))]
+        public string TransactionId { get; set; }
+        [XmlElement("flexible")]
+        public bool Flexible { get; set; }
+        [XmlElement("paymentDueDate")]
+        public DateTime PaymentDueDate { get; set; }
+    }
+
+    [Serializable]
+    public class Address
+    { }
 
     [Serializable]
     public class WebOrderItem
